@@ -27,6 +27,7 @@ brew install nodenv
 brew install jq
 brew install curl
 brew install openjdk
+brew install openjdk@11
 
 # cask
 brew install google-japanese-ime
