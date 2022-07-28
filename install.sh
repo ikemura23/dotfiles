@@ -26,6 +26,7 @@ brew install scrcpy
 brew install nodenv
 brew install jq
 brew install curl
+brew install openjdk
 
 # cask
 brew install google-japanese-ime
@@ -63,7 +64,7 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 defaults write com.apple.finder ShowStatusBar -bool true
 # パスバーを表示
 defaults write com.apple.finder ShowPathbar -bool true
-# ドライブをデスクトップに表示
+
 killall Finder
 
 # ネットワークストレージに .DS_Store ファイルを作成しない
@@ -80,7 +81,7 @@ killall Dock
 
 # --- SystemUIServer関係 ---
 # 時計で日付を表示（例：9月20日(木) 23:00）
-defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d HH:mm:ss'
+defaults write com.apple.menuextra.clock DateFormat -string 'EEE MMM d HH:mm'
 # バッテリーの割合（%）を表示
 defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 # スクリーンショットのドロップシャドウを付けない
