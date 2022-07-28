@@ -26,7 +26,7 @@ brew install scrcpy
 brew install nodenv
 brew install jq
 brew install curl
-brew install openjdk
+#brew install openjdk
 brew install openjdk@11
 
 # cask
@@ -50,6 +50,8 @@ brew install alfred
 brew install visual-studio-code
 brew install adobe-creative-cloud
 brew install appcleaner
+brew install openineditor-lite
+brew install openinterminal-lite
 
 brew cleanup
 
