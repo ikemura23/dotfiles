@@ -44,3 +44,4 @@ alias cap='~/dev/mac-setting/capture.sh'
 # ----------yt-dlp
 alias ytm='yt-dlp -x --audio-format mp3'
 
+alias ll='exa -l'
