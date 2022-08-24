@@ -2,10 +2,10 @@
 
 ## Brewfile
 
-作成
+### 作成
 
-brew bundle dump
+brew bundle dump --force
 
-インストール
+### インストール
 
 brew bundle
