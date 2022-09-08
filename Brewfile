@@ -5,6 +5,7 @@ brew "bat"
 brew "curl"
 brew "exa"
 brew "ffmpeg"
+brew "gibo"
 brew "imagemagick"
 brew "jq"
 brew "mas"
@@ -46,6 +47,7 @@ cask "vlc"
 mas "GarageBand", id: 682658836
 mas "Kindle", id: 405399194
 mas "LadioCast", id: 411213048
+mas "Pocket", id: 568494494
 mas "The Unarchiver", id: 425424353
 mas "Tot", id: 1491071483
 mas "Tunacan", id: 980577198
