@@ -8,6 +8,7 @@ fpath=(~/.functions ${fpath})
 # Java
 export PATH="/opt/homebrew/opt/openjdk@11/bin:$PATH"
 
+# Android
 export ANDROID_HOME=$HOME/Library/Android/sdk
 PATH=$PATH:$JAVA_HOME/bin
 PATH=$PATH:$ANDROID_HOME/platform-tools
