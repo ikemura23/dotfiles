@@ -48,5 +48,6 @@ alias ytm='yt-dlp -x --audio-format mp3'
 alias ll='exa -l'
 alias la='exa -la'
 alias cat='bat -p'
+alias sz='source ~/.zshrc'
 
 alias act='act --container-architecture linux/amd64'
