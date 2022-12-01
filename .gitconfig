@@ -3,3 +3,6 @@
 	email = banbara.work@gmail.com
 [core]
 	autocrlf = input
+	editor = vim
+[log]
+	date = iso-local

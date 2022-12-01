@@ -26,6 +26,7 @@ alias go='~/dev/mac-setting/git-checkout-direct.sh'
 alias de='git checkout -B develop origin/develop'
 alias ma='git checkout -B master origin/master'
 alias main='git checkout -B main origin/main'
+alias sea='git checkout -B develop_sea origin/develop_sea'
 
 # ------ adb -------
 alias acrun='adb shell dumpsys activity | grep -B 1 "Run #[0-9]*:"'
@@ -45,4 +46,7 @@ alias cap='~/dev/mac-setting/capture.sh'
 alias ytm='yt-dlp -x --audio-format mp3'
 
 alias ll='exa -l'
+alias la='exa -la'
 alias cat='bat -p'
+
+alias act='act --container-architecture linux/amd64'
